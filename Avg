@@ -1,0 +1,19 @@
+public class AvgOfEven {
+public static void main(String[] args) {		
+		
+		int a[] = { 10, 20, 8, 45, 3, 4 };
+		int sum = 0;
+		int count=0;
+		for(int i=0; i<a.length; i++) {
+			
+			  if (a[i]%2==0) {
+				count++;
+				sum=sum+a[i];
+				}
+			
+		}
+		System.out.println("Avg of even elements is: "+sum / count);
+
+	}
+
+}
